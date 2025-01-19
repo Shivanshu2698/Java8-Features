@@ -10,6 +10,7 @@ public class Ecample3 {
 		String inputArray[]= {"shiva", "kaka", "kaka", "prateek", "geeta"};
 		
 	    ////WE CAN NOT USE THE SAME STTREAM AGAIN AND AGAIN
+	    //// It will cause IllegalThreadStateException
 		/*
 		Stream<String> inputStream = Arrays.asList(inputArray).stream();
 		inputStream.forEach(input->System.out.println(input));
